@@ -1,0 +1,179 @@
+/* html and body height */
+html, body {
+    height: 100%;
+}
+
+/* Body style */
+body {
+    color: #4c4a50;
+    font: 300 1em/1.5em 'Lato', sans-serif;
+    margin: 0;
+    position: relative;
+}
+
+/* Title h1 style */
+h1 {
+    font-size: 2em;
+    font-weight: 900;
+    line-height: 1.1em;
+    margin: 0;
+}
+
+/* Title h2 style */
+h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.1em;
+    margin: 0;
+}
+
+/* Bordered form */
+form {
+        border: 3px solid #f1f1f1;
+}
+
+/* Svg dimentions */
+svg {
+    height: auto;
+    max-width: 100%;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Containers style */
+.container {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display-table {
+    display: table;
+    width: 100%;
+}
+.display-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.icons {
+    display: none;
+}
+.icon {
+    display: inline-block;
+    height: 3em;
+    width: 3em;
+}
+.icon-left {
+    margin-right: 1em;
+}
+.icon-right {
+    margin-left: 1em;
+}
+.icon-x {
+    background-color: #ca2735;
+    border-radius: 50%;
+    fill: #fff;
+    padding: 0.5em;
+}
+
+/* The "Forgot password" text */
+span.password {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.password {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+/* Extra style for the 404 page */
+.page-404 {
+    background: radial-gradient(ellipse farthest-side at right top, #2ca6e0 0%, #1766b3 100%) no-repeat;
+}
+
+/* Style for messages */
+.message {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    padding: 1em 2em;
+    text-transform: uppercase;
+}
+.message h1 {
+    font-weight: 900;
+}
+.message h2 {
+    font-weight: 300;
+}
+.animated {
+     animation-duration: 1s;
+     animation-fill-mode: both;
+}
+.bounceIn {
+    animation-name: bounceIn;
+    animation-duration: 0.75s;
+}
+@keyframes bounceIn {
+    0%, 20%, 40%, 60%, 80%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}

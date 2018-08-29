@@ -1,0 +1,14 @@
+User-agent: *
+
+Disallow: /Core/
+Disallow: /scr/Contrller/
+Disallow: /scr/Model/
+Disallow: /scr/View/
+Disallow: /webroot/css/
+Disallow: /webroot/assets/
+Disallow: /webroot/js/
+
+#
+Allow: /
+
+

@@ -1,0 +1,11 @@
+<?php
+/**
+ * This file is part of the PiePHP Framwork.
+ *
+ * PHP Version 7.2.1
+ *
+ * @category Framework
+ * @package  PiePHP
+ * @author   NCSAFA <nawel.camille.safa@epitech.eu>
+ *
+ */
